@@ -1,0 +1,5 @@
+<section class="result">
+    <button class="add-button" (click)="add()">Agregar</button>
+     <button class="logout-button" (click)="logout()">Logout</button>
+     <app-ferrari *ngFor="let ferrari of listaFerrari" [ferrari]="ferrari"></app-ferrari>
+   </section>

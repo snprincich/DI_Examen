@@ -1,0 +1,48 @@
+<div class="card-container">
+    <mat-card>
+         <mat-card-header>
+              <mat-card-title>Añadir</mat-card-title>
+         </mat-card-header>
+         <mat-card-content>
+              <form class="form-custom" [formGroup]="formAdd">
+                   <mat-form-field class="input-custom">
+                        <mat-label>Nombre</mat-label>
+                        <input matInput formControlName="name">
+                   </mat-form-field>
+                   <mat-form-field class="input-custom">
+                    <mat-label>Imagen</mat-label>
+                    <input matInput formControlName="image">
+               </mat-form-field>
+                   <mat-form-field class="input-custom">
+                        <mat-label>Descripcion</mat-label>
+                        <input matInput formControlName="description">
+                   </mat-form-field>
+                   <mat-form-field class="input-custom">
+                        <mat-label>Año Salida</mat-label>
+                        <input matInput formControlName="anoSalida">
+                   </mat-form-field>
+                   <mat-form-field class="input-custom">
+                        <mat-label>CV</mat-label>
+                        <input matInput formControlName="cv">
+                   </mat-form-field>
+                   <mat-form-field class="input-custom">
+                    <mat-label>Precio Estimado</mat-label>
+                    <input matInput formControlName="precioEstimado">
+               </mat-form-field>
+               <mat-form-field class="input-custom">
+                <mat-label>Puja Inicial</mat-label>
+                <input matInput formControlName="pujaInicial">
+           </mat-form-field>
+                   <div class="flex">
+                        <button mat-flat-button 
+                        color="primary" 
+                        (click)="add()">Añadir</button>
+                        <button mat-flat-button color="warn" 
+                        (click)="volver()" 
+                        style="margin-left:8px">Volver</button>
+                   </div>
+              </form>
+         </mat-card-content>
+    </mat-card>
+
+</div>
