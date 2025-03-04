@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{48E53EC2-202A-4827-9E48-4081B8032431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{AD6DA40B-18DD-4CA0-9F22-D25281206580}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48E53EC2-202A-4827-9E48-4081B8032431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E53EC2-202A-4827-9E48-4081B8032431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E53EC2-202A-4827-9E48-4081B8032431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E53EC2-202A-4827-9E48-4081B8032431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6DA40B-18DD-4CA0-9F22-D25281206580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6DA40B-18DD-4CA0-9F22-D25281206580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6DA40B-18DD-4CA0-9F22-D25281206580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6DA40B-18DD-4CA0-9F22-D25281206580}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
